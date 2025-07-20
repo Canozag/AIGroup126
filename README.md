@@ -2,8 +2,11 @@
 AI Grup 126 GitHub
   Ekip Uyeleri:
 1-Can Özaslangöz- Scrum Master
+
 2-Maryam Kholmatova (Sınamalı üye)
+
 3-Elifnur Aydınoğlu (Sınamalı üye)
+
 
 Not: Sınamalı üyeler aktif bir şekilde ürün geliştirme aşamasına dahil olana kadar üye değillerdir. 1. ve 2. sprint sonuna kadar hala sınamalı üye konumunda olmayı sürdürmektedirler. Aksi Sprint raporlarında belirtilene kadar resmi olarak takımın tek üyesi Can Özaslangöz'dür.
 
