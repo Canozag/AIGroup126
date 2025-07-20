@@ -1,7 +1,7 @@
 # AIGroup126
 AI Grup 126 GitHub
   Ekip Uyeleri:
-1-Can Özaslangöz- Scrum Master
+1-Can Özaslangöz- Scrum Master/Product Owner
 
 2-Maryam Kholmatova (Sınamalı üye)
 
