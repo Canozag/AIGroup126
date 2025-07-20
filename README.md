@@ -12,5 +12,5 @@ Not: Sınamalı üyeler aktif bir şekilde ürün geliştirme aşamasına dahil 
 
 
 !!!---2. Sprint Süreci
-  3. Spirint süreci takım için yine benzer sorunlarla geçmiştir. Sınamalı takım üyelerinin yoğunluk ve ilgisizliğinden dolayı ürün geliştirilmesi ile ilgili net bir adım atılamakla beraber Scrum master olarak hem scrum master hem product owner rollerini üstlenip bir ürün taslak planı oluşturdum.
+  2. Spirint süreci takım için yine benzer sorunlarla geçmiştir. Sınamalı takım üyelerinin yoğunluk ve ilgisizliğinden dolayı ürün geliştirilmesi ile ilgili net bir adım atılamakla beraber Scrum master olarak hem scrum master hem product owner rollerini üstlenip bir ürün taslak planı oluşturdum.
   Medikal alana yönelik bir destek chatbotu oluşturma fikri hem takımın becerilerince hemde süreçle birlikte daralan zamanda yapılabilecek bir ürün olaarak duruyor. Sigarayı bırakma sürecinde hem başlangış hem esnasında hemde sonrasında kişilere psikolojik destek ve motivasyon kaynağı olması için bir chatbot oluşturma planı devreye alındı. Gerekli API'ler için kütüphane taramaları yapıldı. Gemini ile devam etmek için uygun API seçim süreci devam etmekte. 
