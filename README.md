@@ -98,19 +98,6 @@ Web uygulamasına ait ekran görüntüsünü ekleyin:
 
 ---
 
-## 🎨 Özelleştirme
-- **`static/background.png`** → Anti-sigara arka plan görselinizle değiştirin.  
-- **`static/logo.png`** → Kendi logonuzla değiştirin.
-
----
-
-## ✅ GitHub Commit Mesajı
-```
-Initial commit - AIGroup126 Web App (Final Versiyon)
-```
-
----
-
 ## 👤 Proje Sahibi
 - **Can Özaslangöz** – Scrum Master & Geliştirici  
 - Diğer üyeler geliştirme sürecine katkıda bulunmamıştır.
