@@ -61,7 +61,7 @@ Sprint 3 itibarıyla ekibin tek resmi üyesi **Can Özaslangöz** olarak kabul e
 ### 📸 Ürün Ekran Görüntüsü
 Web uygulamasına ait ekran görüntüsünü ekleyin:  
 ```markdown
-![Chatbot Screenshot](screenshot.png)
+[Chatbot Screenshot](screenshot.png)
 ```
 
 ### 📌 Sprint Review
