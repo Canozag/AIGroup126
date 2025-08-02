@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuitBot - AIGroup126</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: url('{{ url_for('static', filename='background.png') }}') no-repeat center center fixed; 
+            background-size: cover; 
+            padding: 20px; 
+        }
+        .chat-container { max-width: 600px; margin: auto; background: rgba(255,255,255,0.92); padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        h2 { text-align: center; color: #333; }
+        .logo { display: block; margin: 0 auto 10px auto; width: 100px; }
+        .chat-box { height: 400px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; background: #fafafa; margin-bottom: 10px; border-radius: 5px; }
+        .msg { margin: 8px 0; padding: 5px 8px; border-radius: 5px; }
+        .user { text-align: right; background: #e1f0ff; }
+        .bot { text-align: left; background: #d4f4d2; }
+        .input-area { display: flex; }
+        input { flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        button { padding: 10px 15px; background: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <img src="{{ url_for('static', filename='logo.png') }}" class="logo" alt="No Smoking">
+        <h2>QuitBot - AIGroup126</h2>
+        <div id="chat" class="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+<script>
+window.onload = function() {
+    const chat = document.getElementById("chat");
+    chat.innerHTML += `<div class='msg bot'><b>Bot:</b> Let's quit smoking, today! 💪🚭</div>`;
+};
+
+function sendMessage() {
+    const input = document.getElementById("userInput");
+    const message = input.value.trim();
+    if (message === "") return;
+
+    const chat = document.getElementById("chat");
+    chat.innerHTML += `<div class='msg user'><b>You:</b> ${message}</div>`;
+    input.value = "";
+
+    fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message})
+    }).then(res => res.json())
+    .then(data => {
+        chat.innerHTML += `<div class='msg bot'><b>Bot:</b> ${data.response}</div>`;
+        chat.scrollTop = chat.scrollHeight;
+    });
+}
+</script>
+</body>
+</html>
