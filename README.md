@@ -1,103 +1,121 @@
-# 🚭 AIGroup126 - Quit Smoking Chatbot (Final Web Version)
-
-## ✅ Overview
-AIGroup126 presents **QuitBot**, an **AI-powered web chatbot** that supports individuals in their journey to quit smoking.  
-This final version features:
-- 🌐 **User-friendly Web Interface**
-- 🎨 **Full-screen anti-smoking background** and **No-Smoking logo**
-- 🤖 **Gemini API Integration** for intelligent responses
-- 📱 **Motivational starter message** on launch
-
-⚠️ **Disclaimer**: This chatbot is for motivational purposes and does not replace medical advice.
+# 🚭 AIGroup126 - Sigara Bırakma Chatbotu (Final Web Versiyonu)
 
 ---
 
-## 🟢 Sprint Reports
+## 👥 AI Grup 126 GitHub Ekibi
 
-### **Sprint 1**
-- Initial team setup attempted.  
-- Non-active members (Maryam Kholmatova, Elifnur Aydınoğlu) did not contribute.  
-- Only **Can Özaslangöz** actively participated, handling all Scrum Master/Product Owner responsibilities.  
-- Result: Project structure discussed, no working product delivered.
+- **Can Özaslangöz** – Scrum Master / Product Owner  
+  (Projeyi tasarlayan, geliştiren ve tamamlayan tek resmi ekip üyesidir.)
 
----
-
-### **Sprint 2**
-- Continued development led solely by **Can Özaslangöz**.  
-- Decision to build a **quit-smoking chatbot** using Gemini API.  
-- API research and testing completed.  
-- Basic command-line chatbot prototype implemented.
+### 📝 Not:
+Proje başlangıcında Maryam Kholmatova ve Elifnur Aydınoğlu sınamalı üye olarak eklenmiştir.  
+Ancak 1. ve 2. sprint boyunca yoğunlukları ve ilgisizlikleri sebebiyle ürün geliştirme sürecine **aktif katkı sağlamamışlardır**.  
+Sprint 3 itibarıyla ekibin tek resmi üyesi **Can Özaslangöz** olarak kabul edilmiştir.
 
 ---
 
-### **Sprint 3 (Final)**
-- Entire development completed by **Can Özaslangöz**.  
-- Implemented Gemini API-powered responses with proper prompting.  
-- Designed a **modern web interface** using Flask.  
-- Added **custom visuals**: full-screen anti-smoking background and logo.  
-- Integrated motivational starting message: *"Let's quit smoking, today!"*
+## 🟢 Sprint 1
+
+### 📌 Sprint Notları
+- Sprint süreci zorlu geçti, düzenli işleyiş sağlanamadı.  
+- Takım üyeleri sürece katılım göstermedi.  
+- Scrum Master olarak tüm iletişim ve süreç yönetimi **Can Özaslangöz** tarafından yürütüldü.
+
+### ✅ Sonuç
+- Takımda sınamalı üyeler yer alsa da aktif katkı sağlanmadı.  
+- Ürün geliştirme aşaması bu sprintte gerçekleşmedi.
 
 ---
 
-## 🏆 Sprint Notes Summary
-- **Team Status**: Only **Can Özaslangöz** actively contributed throughout all sprints.  
-- **Puan Tamamlama Mantığı**: 30/30 points completed successfully.  
-- **Retrospective**:
-  - ✅ Strength: Rapid independent problem-solving and development.  
-  - ❌ Weakness: Lack of contribution from trial members.  
-  - 🔥 Improvement: Expand with Flask UI enhancements and possible deployment.
+## 🟢 Sprint 2
+
+### 📌 Sprint Notları
+- Sınamalı üyelerin ilgisizliği sürdü.  
+- Ürün geliştirme adımları **tek başına** Can Özaslangöz tarafından yürütüldü.  
+- Ürün planı belirlendi: **Sigara bırakma sürecinde kullanıcıya destek sağlayan chatbot**.  
+- API araştırması tamamlandı, **Gemini API** ile devam edilmesine karar verildi.
 
 ---
 
-## 📸 UI Preview
-The web interface includes:
-- 🚭 Anti-smoking full-screen background  
-- 💬 Motivational starter message  
-- ✅ Clean chat bubbles for user and bot messages  
+## 🟢 Sprint 3 (Final)
 
----
+### 📌 Sprint Notları
+- Sprint 3 boyunca ürün tamamen **Can Özaslangöz** tarafından geliştirildi.  
+- Sınamalı üyeler katkı sağlamadı.  
+- Chatbot’un tüm fonksiyonları tamamlandı, web arayüzü eklendi ve proje GitHub’a yüklendi.
 
-## 🚀 How to Run the Project
+### 📌 Tahmin Edilen Puan ve Tamamlanan Puan
+- **Tahmin Edilen Puan:** 30  
+- **Tamamlanan Puan:** 30  
 
-### 1️⃣ **Install Dependencies**
-```bash
-python -m pip install -r requirements.txt
+### 📌 Puan Tamamlama Mantığı
+- Hedeflenen tüm özellikler başarıyla tamamlandı.
+
+### 📌 Daily Scrum
+- Geliştirme süreci bireysel olarak yürütüldü, teknik sorunlar hızlıca çözüldü.
+
+### 📌 Sprint Board Güncellemeleri
+- Görevler bireysel olarak tamamlandı.  
+- GitHub entegrasyonu başarıyla gerçekleştirildi.
+
+### 📸 Ürün Ekran Görüntüsü
+Web uygulamasına ait ekran görüntüsünü ekleyin:  
+```markdown
+![Chatbot Screenshot](screenshot.png)
 ```
 
-### 2️⃣ **Set Your Gemini API Key**
-```powershell
-$env:GOOGLE_API_KEY="your-api-key"
-```
+### 📌 Sprint Review
+- Çalışan chatbot başarıyla demo edildi.  
+- Kullanıcı mesajlarına uygun yanıt veren sistem geliştirildi.
 
-### 3️⃣ **Run the Web Application**
-```bash
-python app.py
-```
+### 📌 Sprint Retrospektif
+- ✅ **Güçlü Yönler:** Tek başına geliştirilmesine rağmen hızlı ilerleme sağlandı.  
+- ❌ **Zayıf Yönler:** Ekip katkısının olmaması süreci zorlaştırdı.  
+- 🔥 **Geliştirme Alanları:** İleride web arayüzü geliştirilip geniş özellikler eklenebilir.
 
-### 4️⃣ **Open in Your Browser**
+---
+
+## 🚀 Proje Kurulumu
+
+### ✅ Kurulum Adımları
+1. Python 3.10+ kurulu olmalıdır.
+2. Gerekli kütüphaneleri yükleyin:
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+3. Gemini API anahtarınızı ortam değişkeni olarak ayarlayın:
+   ```powershell
+   $env:GOOGLE_API_KEY="your-api-key"
+   ```
+4. Web uygulamasını çalıştırın:
+   ```bash
+   python app.py
+   ```
+5. Tarayıcınızdan şu adrese gidin:
+   ```
+   http://127.0.0.1:5000
+   ```
+
+---
+
+## 🎨 Özelleştirme
+- **`static/background.png`** → Anti-sigara arka plan görselinizle değiştirin.  
+- **`static/logo.png`** → Kendi logonuzla değiştirin.
+
+---
+
+## ✅ GitHub Commit Mesajı
 ```
-http://127.0.0.1:5000
+Initial commit - AIGroup126 Web App (Final Versiyon)
 ```
 
 ---
 
-## 🎨 Customization
-- Replace **`static/background.png`** with your own anti-smoking background.  
-- Replace **`static/logo.png`** with your own logo.  
+## 👤 Proje Sahibi
+- **Can Özaslangöz** – Scrum Master & Geliştirici  
+- Diğer üyeler geliştirme sürecine katkıda bulunmamıştır.
 
 ---
 
-## ✅ Final Commit Message
-```
-Initial commit - AIGroup126 Web App (Final Version with Full Background)
-```
-
----
-
-## 👤 Project Ownership
-- **Can Özaslangöz** – Scrum Master & Developer  
-- Trial members did not contribute to the final product.
-
----
-
-💡 This is the **final deliverable** of the AIGroup126 project, combining technical functionality with a motivational and user-friendly interface.
+💡 Bu sürüm, AIGroup126 projesinin **son ve teslim edilecek halidir**.  
+Web arayüzü ile kullanıcı dostu, motivasyonel ve teknik olarak eksiksizdir.
