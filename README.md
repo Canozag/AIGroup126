@@ -59,9 +59,9 @@ Sprint 3 itibarıyla ekibin tek resmi üyesi **Can Özaslangöz** olarak kabul e
 - GitHub entegrasyonu başarıyla gerçekleştirildi.
 
 ### 📸 Ürün Ekran Görüntüsü
-Web uygulamasına ait ekran görüntüsünü ekleyin:  
+Web uygulamasına ait ekran görüntüsünü ektedir:  
 ```markdown
-[Chatbot Screenshot](screenshot.png)
+(screenshot.png)
 ```
 
 ### 📌 Sprint Review
